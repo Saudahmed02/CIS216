@@ -1,7 +1,8 @@
 
-set 
+body 
 {
      background-color: #FCEBB6;
+     font: Verdana;
 }
 header
 {
@@ -12,24 +13,10 @@ header
 
 nav
 {
-    background-color: #FCEBB6;
     text-align: center;
     font-weight: bold;
-    font-style: Verdana;
 }
 
-
-main
-{
-    background-color: #FCEBB6;
-    font-style: Arial;
-}
-
-div
-{
-    background-color: #FCEBB6;
-    font-style: Arial;
-}
 
 footer
 {
