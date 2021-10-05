@@ -1,5 +1,5 @@
 
-div
+head
 {
     background-color: #FCEBB6;
 }
@@ -24,7 +24,12 @@ main
 {
     background-color: #FCEBB6;
     font-style: Arial;
+}
 
+div
+{
+    background-color: #FCEBB6;
+    font-style: Arial;
 }
 
 footer
