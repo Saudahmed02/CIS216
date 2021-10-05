@@ -1,0 +1,29 @@
+header
+{
+    background-color: #D2B48C;
+    text-align: center;
+    line-height: 200%;
+}
+
+nav
+{
+    text-align: center;
+    font-weight: bold;
+    font-style: Verdana;
+}
+
+
+main
+{
+    background-color: #FCEBB6;
+    font-style: Arial;
+
+}
+
+footer
+{
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+}
