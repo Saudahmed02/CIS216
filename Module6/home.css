@@ -7,6 +7,7 @@ header
 
 nav
 {
+    background-color: #FCEBB6;
     text-align: center;
     font-weight: bold;
     font-style: Verdana;
@@ -26,4 +27,9 @@ footer
     font-size: 0.60em;
     font-style: italic;
     text-align: center;
+}
+
+div
+{
+    background-color: #FCEBB6;
 }
