@@ -7,18 +7,27 @@ body
     margin-left:auto;
 }
 
+
+
+
 header
 {
     background-color: #D2B48C;
     text-align: center;
+}
+
+h1
+{
     line-height: 200%;
 }
+
 
 nav
 {
     text-align: center;
     font-weight: bold; 
 }
+
 
 dl
 {
