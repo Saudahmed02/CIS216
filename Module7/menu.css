@@ -28,6 +28,19 @@ nav
     font-weight: bold; 
 }
 
+img
+{
+    float: right;
+    height: 240px;
+    width: 240px;
+}
+
+p
+{
+    font-weight: lighter;
+    text-align: left;
+}
+
 
 dl
 {
