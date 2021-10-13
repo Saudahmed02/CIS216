@@ -26,6 +26,12 @@ nav
     font-weight: bold;
 }
 
+img
+{
+    float: right;
+    height: 240px;
+    width: 230px;
+}
 
 footer
 {
