@@ -2,28 +2,35 @@ body
 {
     background-color: #FCEBB6;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
-    margin-right:auto;
-    margin-left:auto;
 }
-
-header
-{
-    background-color: #D2B48C;
-    text-align: center;
-}
-
-h1
-{
-    line-height: 200%;
-}
-
 
 nav
 {
     text-align: center;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
+h1
+{
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+a:link 
+{
+    text-decoration: none;
+}
+
+
+header
+{
+    background-color: #D2B48C;
+    height: 150px;
+    background-image:url("javajamlogo.jpg");
+    background-repeat: no-repeat;
+}
+
 
 main
 {
@@ -69,4 +76,7 @@ footer
     width: 80%;
     margin-right:auto;
     margin-left:auto;
+    background-color: #FEF6C2;
+    max-width: 900px;
+    max-height: 1280px;
 }
