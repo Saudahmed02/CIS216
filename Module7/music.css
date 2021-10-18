@@ -1,13 +1,15 @@
-body
+body 
 {
-    background-color: #FCEBB6;
-    font-family: Arial, Helvetica, sans-serif;
+     background-color: #FCEBB6;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav
+header
 {
-    text-align: center;
-    font-weight: bold;
+    background-color: #D2B48C;
+    height: 150px;
+    background-image:url("javajamlogo.jpg");
+    background-repeat: no-repeat;
 }
 
 h1
@@ -22,15 +24,11 @@ a:link
     text-decoration: none;
 }
 
-
-header
+nav
 {
-    background-color: #D2B48C;
-    height: 150px;
-    background-image:url("javajamlogo.jpg");
-    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
 }
-
 
 main
 {
