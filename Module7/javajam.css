@@ -71,6 +71,12 @@ footer
     border-color: #221811;
 }
 
+dl
+{
+    font-weight:bold;
+    margin: 1px;
+}
+
 #wrapper
 {
     width: 80%;
