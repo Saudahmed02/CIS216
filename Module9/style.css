@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+header, nav, main, footer{display: block;}
 body 
 {
      background-color: #FCEBB6;
@@ -20,29 +22,53 @@ h1
     font-size: 3em;
 }
 
-a:link 
+nav a
 {
     text-decoration: none;
+}
+nav a:link
+{
+    color: #FEF6C2;
+}
+nav a:visited
+{
+    color: #D2B48C;
+}
+nav a:hover
+{
+    color: #CC9933;
 }
 
 nav
 {
     text-align: center;
     font-weight: bold;
+    float: left;
+    width: 200px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0;
 }
 
 main
 {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
     padding-bottom: 2em;
     display:block;
+    margin-left: 200px;
+    padding-top: 0px;
+    background-color: #FEF6C2;
 }
 
 .details
 {
     padding-left: 20%;
     padding-right:20%;
+    overflow: auto;
 }
 
 img
@@ -57,6 +83,7 @@ h4
     font-size:1.2em;
     padding-left: .5em;
     padding-bottom: .25em;
+    text-transform: uppercase;
 }
 
 footer
@@ -73,6 +100,7 @@ footer
 
 #wrapper
 {
+    background-color: #231814;
     width: 80%;
     margin-right:auto;
     margin-left:auto;
@@ -80,4 +108,36 @@ footer
     max-width: 900px;
     max-height: 1280px;
     box-shadow: 3px 3px grey;
+}
+
+#heroroad
+{
+    background-image: url(windingroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heromugs
+{
+    background-image: url(mugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heroguiter
+{
+    background-image: url(heroguiter.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+main h2, main h3, main h4, main h5, main div, main ul, main dl
+{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.floatleft
+{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
