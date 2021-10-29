@@ -41,8 +41,11 @@ nav a:hover
 
 nav
 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
+    font: 1.5 em;
+    padding-top: 10px;
     float: left;
     width: 200px;
 }
@@ -106,7 +109,8 @@ footer
     margin-left:auto;
     max-width: 900px;
     max-height: 1280px;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom:10px;
 }
 
 #heroroad
@@ -128,7 +132,7 @@ footer
     height: 250px;
 }
 
-main h2, main h3, main h4, main h5, main div, main ul, main dl
+main h2, main h3, main h4, main p, main div, main ul, main dl
 {
     padding-left: 3em;
     padding-right: 2em;
