@@ -67,6 +67,12 @@ main
     background-color: #FEF6C2;
 }
 
+dt
+{
+    font-weight:bold;
+    margin: 1px;
+}
+
 .details
 {
     padding-left: 20%;
