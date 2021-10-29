@@ -93,6 +93,7 @@ h4
     padding-left: .5em;
     padding-bottom: .25em;
     text-transform: uppercase;
+    box-shadow: 3px 3px 3px black;
 }
 
 footer
