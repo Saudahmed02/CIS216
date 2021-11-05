@@ -1,0 +1,101 @@
+.grid-container
+{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-rows: 1fr 2fr 3fr 4fr 5fr 8fr 7fr 8fr;
+    grid-template-columns: 1fr 2fr 3fr 4fr 5fr 8fr 7fr 8fr;
+    grid-template-areas:
+    'redColor . . . . . . .'
+    'orangeColor orangeColor . . . . . .'
+    'yellowColor yellowColor yellowColor . . . . .'
+    'greenColor greenColor greenColor greenColor . . . .'
+    'cyanColor cyanColor cyanColor cyanColor cyanColor . . .'
+    'blueColor blueColor blueColor blueColor blueColor blueColor . .'
+    'violetColor violetColor violetColor violetColor violetColor violetColor violetColor .'
+    'purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor';
+}
+
+.black
+{
+    grid-area: blackColor;
+    background-color: black;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+
+
+}
+
+.white
+{
+    grid-area: whiteColor;
+    background-color: white;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 8;
+
+
+}
+
+.red
+{
+    grid-area: redColor;
+    background-color: red;
+    color: red;
+
+}
+
+.orange
+{
+    grid-area: orangeColor;
+    background-color: orange;
+    color: orange;
+}
+
+.yellow
+{
+    grid-area: yellowColor;
+    background-color: yellow;
+    color: yellow;
+
+}
+
+.green
+{
+    grid-area: greenColor;
+    background-color: green;
+    color: green;
+}
+
+.cyan
+{
+    grid-area: cyanColor;
+    background-color: cyan;
+    color: cyan;
+}
+
+.blue
+{
+    grid-area: blueColor;
+    background-color:blue;
+    color: blue;
+}
+
+.violet
+{
+    grid-area: violetColor;
+    background-color: violet;
+    color: violet;
+}
+
+.purple
+{
+  grid-area: purpleColor;
+  background-color: purple;
+  color: purple;
+}
+
