@@ -1,0 +1,56 @@
+nav
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align:center;
+    padding-right: 100px;
+    
+}
+a:link
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.cube
+{
+    padding-top:10px;
+    background-color:gainsboro;
+    text-align: left;
+    padding-left: 19%;
+}
+
+#wrapper
+{
+    background-color: black;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.fortnite
+{
+    background-image: url(fort.jpg);
+    background-size: 100% 100%;
+    height: 450px;
+}
+
+h3,.p { text-align:center;}
+.p{font-size: 12px; font-style:italic;}
+
+aside
+{
+    float:left;
+    background-color: black;
+    width:18%;
+    color:white;
+
+}
+
+
+
+
+
+
