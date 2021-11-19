@@ -1,24 +1,29 @@
-nav
+nav /*Navigation contains only font*/
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 15px;
     text-align:center;
-    padding-right: 100px;
-    
+    padding-right: 100px; 
 }
-a:link
+
+a:link /*navigation Links */
 {
     text-decoration: none;
     color: white;
     background-color: black;
 }
-h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+
+
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;}
+h4 {font-family: 'Franklin Gothic Medium', 'Arial Narrow'}
 
 .cube
 {
     padding-top:10px;
-    background-color:gainsboro;
+    background-color: white;
     text-align: left;
     padding-left: 19%;
 }
@@ -30,24 +35,28 @@ h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     padding-bottom: 15px;
 }
 
+/*Background of the page */
 .fortnite
 {
     background-image: url(fort.jpg);
     background-size: 100% 100%;
-    height: 450px;
+    height: 550px;
 }
 
-h3,.p { text-align:center;}
-.p{font-size: 12px; font-style:italic;}
 
-aside
+aside /*Navigation on the left */
 {
     float:left;
     background-color: black;
     width:18%;
     color:white;
-
 }
+
+/*style rules for the aside text*/
+h3,.p {font-family:Arial, Helvetica, sans-serif;text-align:center;}
+.p{font-size: 10px; font-style:italic;}
+
+p{font-family:Arial, Helvetica, sans-serif; line-gap-override: 1px;}
 
 
 
