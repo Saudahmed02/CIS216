@@ -50,6 +50,7 @@ aside /*Navigation on the left */
     background-color: black;
     width:18%;
     color:white;
+    padding-bottom:1200px;
 }
 
 /*style rules for the aside text*/
@@ -58,7 +59,13 @@ h3,.p {font-family:Arial, Helvetica, sans-serif;text-align:center;}
 
 p{font-family:Arial, Helvetica, sans-serif; line-gap-override: 1px;}
 
-
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
 
 
 
