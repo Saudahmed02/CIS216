@@ -79,6 +79,25 @@ footer{
     padding-left:50px;;
 }
 
+table
+{
+    margin: auto;
+    width: 90%;
+    border-spacing: 0px;
+    background-color: #FCEBB6;
+}
+
+td, th
+{
+    padding: 10px;
+}
+
+tr:nth-of-type(odd)
+{
+    background-color:#D2B48C;
+
+}
+
 
 
 
