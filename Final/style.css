@@ -3,20 +3,25 @@
 
 #wrapper{
     display: grid;
-    grid-template-rows: 1/5fr 1fr 1fr 1fr 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    'header header nav nav nav'
-    'aside main main main main'
-    'aside main main main main'
-    'aside main main main main'
-    'side side foot foot foot';
+    grid-template-rows: 1/5fr 1fr 1fr 1fr 2fr 2fr; 
+    grid-template-columns: 1fr 0.02fr 1fr 1fr 2fr 2fr;
+    grid-template-areas: 
+    'header header header header header header'
+    'nav nav back back back back'
+    'nav nav back back back back'
+    'aside main main main main main'
+    'aside main main main main main'
+    'foot foot foot foot foot foot';
 }
 
 .background{
+    grid-area: back;
     background-image: url(fort.jpg);
     background-size: 100% 100%;
     height: 500px;
+    border-right: black;
+    border-style: solid;
+    border-width: 10px;
 }
 
 header
@@ -31,9 +36,10 @@ nav
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 15px
+    padding-top: 15px;
 }
 
 a:link {text-decoration: none;}
@@ -79,6 +85,7 @@ footer
     padding-left: 35px;
     font-style:italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 
 }
 
