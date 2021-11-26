@@ -56,6 +56,7 @@ aside
     font-weight: lighter;
 
 }
+
 main
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -65,12 +66,16 @@ main
     border-style: solid;
     border-width: 10px;
 }
+
 .p
 {
     font-size: 10px; 
     font-style:italic;
     font-weight: lighter;
 }
+
+h5 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 p
 {
     font-family: 'Times New Roman', Times, serif;
