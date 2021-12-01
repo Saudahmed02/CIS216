@@ -170,7 +170,10 @@ tr:nth-of-type(odd)
     background-color:#D2B48C;
 }
 
-form {padding: 2em;}
+form 
+{
+    padding: 2em;
+}
 label 
 {
     float: left;
@@ -184,6 +187,7 @@ input, textarea
 {
     display: block;
     margin-bottom: 1em;
+    min-width: 20em;
 }
 
 #mySubmit
