@@ -22,12 +22,12 @@
     
     <h2> Jobs at JavaJam </h2>
     
-    <p>Want to work at JavaJam? Fill out the form below to start your application.</p>
+    <p>Want to work at JavaJam? Fill out the form below to start your application. Required field are marked with an asterisk (*)</p>
 
-    <form method = "POST" action ="http://webdevbasics.net/scripts/javajam8.php.">
-        <label for = "myName">Name:</label><input type ="text" name = "myName" id = "myName">
-        <label for = "myEmail">Email:</label><input type = "email" name = "myEmail" id = "myEmail">
-        <label for = "myExperince">Experience</label><textarea name = "myExperince" id = "myExperience" rows = "2" cols = "20"></textarea>
+    <form method = "POST" action="https://webdevbasics.net/scripts/javajam8.php">
+        <label for = "myName">*Name:</label><input type ="text" name = "myName" id = "myName" required = "required">
+        <label for = "myEmail">*Email:</label><input type = "email" name = "myEmail" id = "myEmail" required = "required">
+        <label for = "myExperince">*Experience</label><textarea name = "myExperince" id = "myExperience" rows = "2" cols = "20" required = "required"></textarea>
         <input type = "Submit" id = "mySubmit" value = "Apply Now" name = "mySubmit">
     </form>
 
