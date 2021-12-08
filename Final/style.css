@@ -43,8 +43,8 @@ nav
 }
 
 a:link {text-decoration: none;}
-a:hover{color:goldenrod;}
-a:visted{color:lightsteelblue;}
+a:hover{color:lightcyan;}
+a:visted{color:lightgray;}
 
 aside
 {
