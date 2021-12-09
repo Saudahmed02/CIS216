@@ -3,16 +3,18 @@
 
 #wrapper{
     display: grid;
-    grid-template-rows: 1/5fr 1fr 1fr 1fr 2fr 2fr; 
+    grid-template-rows: 1/7fr 1fr 1fr 1fr 2fr 2fr; 
     grid-template-columns: 1fr 0.02fr 1fr 1fr 2fr 2fr;
     grid-template-areas: 
-    'header header header header header header'
-    'nav nav back back back back'
-    'nav nav back back back back'
+    '. header header header header header'
+    'back back back back back back'
+    'back back back back back back'
     'aside main main main main main'
     'aside main main main main main'
     'foot foot foot foot foot foot';
 }
+
+@media screen and (min-width:)
 
 .background{
     grid-area: back;
@@ -24,29 +26,14 @@
     border-width: 10px;
 }
 
-
-ul
-{
-    list-style: none;
-}
-
 header
 {
     grid-area: header;
-    background-color: black;
+    background-color: white;
+    text-align: center;
+    padding-right: 100px;
 }
 
-nav
-{
-    grid-area: nav;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 15px;
-}
 
 a:link {text-decoration: none;}
 a:hover{color:lightcyan;}
@@ -60,7 +47,6 @@ aside
     grid-area: aside;
     text-align: center;
     font-weight: lighter;
-
 }
 
 main
@@ -181,17 +167,7 @@ figure
     transition: 0.3s ease-in-out;
 }
 
-.image #zoom-In:hover img
-{
-    transform: scale(1.3);
-}
-
-.sub
-{
-    
-    font-size: 15px;
-
-}
+.image #zoom-In:hover img {transform: scale(1.3);}
 
 .info
 {
@@ -200,5 +176,52 @@ figure
     border:black 2px 2px 2px 2px;
     padding: 2px;
     text-align: center;
+}
+
+#sidebar
+{
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    background:#000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: -230px;
+}
+
+#sidebar ul li
+{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+#sidebar ol li
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left:250px;
+    top: 10px;
+    transition: 1.9s;
+
+}
+
+#sidebar.active { left: 0;}
+
+#sidebar h3{color: #fff; text-align: center; padding-left: 29px;}
+
+.toggle-btn span
+{
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-top: 4px;
 }
 
