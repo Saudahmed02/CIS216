@@ -24,6 +24,12 @@
     border-width: 10px;
 }
 
+
+ul
+{
+    list-style: none;
+}
+
 header
 {
     grid-area: header;
@@ -182,9 +188,8 @@ figure
 
 .sub
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    font-style: italic;
+    
+    font-size: 15px;
 
 }
 
@@ -197,4 +202,3 @@ figure
     text-align: center;
 }
 
-a:link{text-decoration: none;}
