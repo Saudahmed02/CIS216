@@ -57,6 +57,7 @@ main
     border-top: black;
     border-style: solid;
     border-width: 10px;
+    background-image:url(grey.png);
 }
 
 .p
@@ -244,7 +245,11 @@ figure
         text-align-last: right;
         padding-right: 15px;
     }
-
-
 }
-
+.response
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bold;
+}
