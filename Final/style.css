@@ -35,8 +35,8 @@ header
 
 
 a:link {text-decoration: none;}
-a:hover{color:lightcyan;}
-a:visted{color:#6CABF4;}
+a:visited{color:#77b7ffe0;}
+a:hover{color:rgb(138, 138, 253);}
 
 aside
 {
