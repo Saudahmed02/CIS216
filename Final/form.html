@@ -90,26 +90,34 @@
     </aside>
 
     <main>
+        <br>
+        <br>
+        
 
-        <h2> JOIN OUR TEAM BY SUBMITTING THIS APPLICATION </h2>
-    
-        <p> Required field are marked with an asterisk (*)</p>
-    
         <form method = "POST" action="https://saudahmed02.github.io/CIS216/Final/response.html">
-            <label for = "myName">*Name:</label><input type ="text" name = "myName" id = "myName" required = "required">
-            <label for = "age">*Age:</label><input type ="text" name = "age" id = "age" required = "required">
-            <label for = "myEmail">*Email:</label><input type = "email" name = "myEmail" id = "myEmail" required = "required">
-            <label for = "myPhone">Phone</label><input type = "phone" name = "myPhone" id = "myPhone"></input>
-    
-            <p>Desired to Work as</p>
-    
-            <label for="writingArticles">Writing Articles</label><input type="radio" id="writingArticles" name="desiredWork" value="Writing Articles">
-            <label for="ReasearchingUpdates">Reasearching About Updates</label><input type="radio" id="ReasearchingUpdates" name="desiredWork" value="Reasearching Updates">
             
-    
+        <h2> JOIN OUR TEAM BY SUBMITTING THIS APPLICATION </h2>
+        <p> Required field are marked with an asterisk (*)</p>
+
+            <label for="fname">*First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required = "required">
+        
+            <label for="lname">*Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required = "required">
+
+            <label for = "age">*Country: </label>
+            <input type ="text" name = "age" id = "age" placeholder = "Ex: USA, Canada..."required = "required"><br>
+
+            <label for = "myEmail">*Email: </label>
+            <input type = "email" name = "myEmail" id = "myEmail" placeholder = "fortnite@example.com.."required = "required"><br>
+
+            <label for = "myPhone">Phone </label>
+            <input type = "phone" name = "myPhone" id = "myPhone" placeholder = "123-345-7812"></input><br>
             
-            <label for = "myExperince">*Experience</label><textarea name = "myExperince" id = "myExperience" rows = "2" cols = "20" required = "required"></textarea>
-            <input type = "Submit" id = "mySubmit" value = "Apply Now" name = "mySubmit">
+            <label for = "aboutYou">*About you</label><br>
+            <textarea name = "aboutYou" id = "aboutYou" rows = "2" cols = "20" placeholder = "Tell us about yourself..." required = "required"></textarea><br>
+
+            <input type = "Submit" id = "mySubmit" value = "Apply Now" name = "mySubmit"><br>
         </form>
 
 
