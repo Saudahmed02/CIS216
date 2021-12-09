@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
     <title>Fortnite</title>
     <meta charset="utf-8">
