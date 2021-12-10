@@ -1,6 +1,7 @@
 /*Style sheet in the grid layout */
 /*aside, main, footer */
 
+/*-----------PAGE LAYOUT-------------*/
 #wrapper{
     display: grid;
     grid-template-rows: 1/7fr 1fr 1fr 1fr 2fr 2fr; 
@@ -15,6 +16,7 @@
 }
 
 
+/*------------Image Background ------------*/
 .background{
     grid-area: back;
     background-image: url(fort.jpg);
@@ -25,6 +27,7 @@
     border-width: 10px;
 }
 
+/*-------------header-----------*/
 header
 {
     grid-area: header;
@@ -33,11 +36,13 @@ header
     padding-right: 100px;
 }
 
+/*----------Navigation Links------------*/
 a:link{color:aqua}
 a:link {text-decoration: none;}
 a:visited{color:#77b7ffe0;}
 a:hover{color:rgb(138, 138, 253);}
 
+/*-----------------aside----------------*/
 aside
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -48,6 +53,7 @@ aside
     font-weight: lighter;
 }
 
+/*--------------Main function------------*/
 main
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,6 +66,7 @@ main
     background-image:url(grey.png);
 }
 
+/*---------Paragraph--------*/
 .p
 {
     font-size: 10px; 
@@ -67,12 +74,10 @@ main
     font-weight: lighter;
 }
 
+/*----h5---*/
 h5 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-p
-{
-    font-family: 'Times New Roman', Times, serif;
-}
+p {font-family: 'Times New Roman', Times, serif;}
 
 
 footer
@@ -160,7 +165,7 @@ dl
     border:red 2px 2px 2px;
 }
 
-
+/*---------------Image Effects----------------*/
 figure
 {
     overflow: hidden;
@@ -182,6 +187,7 @@ figure
 
 .image #zoom-In:hover img {transform: scale(1.3);}
 
+/*-------------Hamburger-----------*/
 .info
 {
     background-color: lightgrey;
@@ -238,6 +244,7 @@ figure
     margin-top: 4px;
 }
 
+/*---------------------Mobile Query----------------------*/
 @media only screen and (min-width:300px) and (max-width: 600px)
 {
     #wrapper
@@ -259,6 +266,7 @@ figure
         padding-right: 15px;
     }
 }
+
 .response
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -267,6 +275,7 @@ figure
     font-weight: bold;
 }
 
+/*---------------Forms-----------------*/
 input[type=text], 
 select 
 {
