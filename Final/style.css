@@ -250,20 +250,26 @@ figure
     #wrapper
     {
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 2fr 2fr 3fr 1/9fr;
         grid-template-columns:1fr;
         grid-template-areas: 
-        '.'
-        'back back'
+        'header'
+        'back '
         'aside'
         'main'
-        'footer';
+        'foot';
     }
 
     header
     {
         text-align-last: right;
         padding-right: 15px;
+    }
+
+    table
+    {
+        padding-right: 90px;
+        padding-bottom: 5px;
     }
 }
 
