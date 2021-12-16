@@ -14,9 +14,9 @@
     'aside main main main main main'
     'foot foot foot foot foot foot';
 
-    width: 80%;
+    /*width: 80%;
     margin-right:auto;
-    margin-left: auto;
+    margin-left: auto;*/
 
 }
 
@@ -30,7 +30,7 @@ body{
     background-image: url(home.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border: white;
+    border: black;
     border-style: solid;
     border-width: 10px;
 }
@@ -40,7 +40,7 @@ body{
     background-image: url(fort.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border: white;
+    border: black;
     border-style: solid;
     border-width: 10px;
 }
@@ -51,7 +51,7 @@ body{
     background-image: url(ch2.png);
     background-size: 100% 100%;
     height: 500px;
-    border: white;
+    border: black;
     border-style: solid;
     border-width: 10px;
 }
@@ -62,7 +62,7 @@ body{
     background-image: url(ch3.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border: white;
+    border: black;
     border-style: solid;
     border-width: 10px;
 }
@@ -94,9 +94,6 @@ aside
     font-weight: lighter;
     padding-right: 5px;
     padding-left: 5px;
-    border-left: white;
-    border-style: solid;
-    border-width: 10px
 }
 
 
@@ -118,7 +115,7 @@ main
     grid-area: main; 
     padding-left:15px;
     padding-right: 15px;
-    border: white;
+    border: black;
     border-style: solid;
     border-width: 10px;
     background-image:url(grey.png);
@@ -255,11 +252,11 @@ figure
 #sidebar
 {
     position: absolute;
-    width: 190px;
+    width: 285px;
     height: 60%;
     background:#000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: -190px;
+    left: -285px;
 }
 
 #sidebar ul li
@@ -280,7 +277,7 @@ figure
 
 #sidebar .toggle-btn{
     position: absolute;
-    left:230px;
+    left:300px;
     top: 10px;
     transition: 1.9s;
 
@@ -294,7 +291,7 @@ figure
 {
     width: 45px;
     height: 4px;
-    background: #77b7ffe0;
+    background: black;
     display: block;
     margin-top: 4px;
 }
