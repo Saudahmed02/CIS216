@@ -251,11 +251,11 @@ figure
 #sidebar
 {
     position: absolute;
-    width: 285px;
-    height: 60%;
+    width: 250px;
+    height: 90%;
     background:#000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: -285px;
+    left: -250px;
 }
 
 #sidebar ul li
@@ -276,7 +276,7 @@ figure
 
 #sidebar .toggle-btn{
     position: absolute;
-    left:300px;
+    left:270px;
     top: 10px;
     transition: 1.9s;
 
