@@ -21,7 +21,7 @@
 }
 
 body{
-    background-image: url(grey.png);
+    background-color: whitesmoke;
 }
 
 /*------------Image Background ------------*/
@@ -74,6 +74,7 @@ header
     background-color: white;
     text-align: center;
     padding-right: 100px;
+
 }
 
 /*----------Navigation Links------------*/
@@ -277,7 +278,7 @@ figure
 
 #sidebar .toggle-btn{
     position: absolute;
-    left:420px;
+    left:250px;
     top: 10px;
     transition: 1.9s;
 
