@@ -21,7 +21,7 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 /*------------Image Background ------------*/
@@ -30,7 +30,7 @@ body{
     background-image: url(home.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border-right: black;
+    border: white;
     border-style: solid;
     border-width: 10px;
 }
@@ -40,7 +40,7 @@ body{
     background-image: url(fort.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border-right: black;
+    border-right: white;
     border-style: solid;
     border-width: 10px;
 }
@@ -51,7 +51,7 @@ body{
     background-image: url(ch2.png);
     background-size: 100% 100%;
     height: 500px;
-    border-right: black;
+    border-right: white;
     border-style: solid;
     border-width: 10px;
 }
@@ -62,7 +62,7 @@ body{
     background-image: url(ch3.jpg);
     background-size: 100% 100%;
     height: 500px;
-    border-right: black;
+    border-right: white;
     border-style: solid;
     border-width: 10px;
 }
@@ -94,7 +94,9 @@ aside
     font-weight: lighter;
     padding-right: 5px;
     padding-left: 5px;
-    
+    border-left: white;
+    border-style: solid;
+    border-width: 10px
 }
 
 
@@ -116,7 +118,7 @@ main
     grid-area: main; 
     padding-left:15px;
     padding-right: 15px;
-    border-top: black;
+    border: white;
     border-style: solid;
     border-width: 10px;
     background-image:url(grey.png);
@@ -253,11 +255,11 @@ figure
 #sidebar
 {
     position: absolute;
-    width: 210px;
+    width: 190px;
     height: 60%;
     background:#000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: -210px;
+    left: -190px;
 }
 
 #sidebar ul li
@@ -278,7 +280,7 @@ figure
 
 #sidebar .toggle-btn{
     position: absolute;
-    left:250px;
+    left:230px;
     top: 10px;
     transition: 1.9s;
 
@@ -292,7 +294,7 @@ figure
 {
     width: 45px;
     height: 4px;
-    background: black;
+    background: #77b7ffe0;
     display: block;
     margin-top: 4px;
 }
