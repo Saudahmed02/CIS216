@@ -440,4 +440,6 @@ form
     padding: 20px;
     box-shadow: darkgrey 3px 3px 3px 3px;
 }
-
+/*-------Privacy page-----------*/
+.privacy a:link {color: blue;}
+.privacy a:hover{color: darkblue;}
