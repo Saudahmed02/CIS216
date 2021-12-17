@@ -14,9 +14,7 @@
     'aside main main main main main'
     'foot foot foot foot foot foot';
 
-    /*width: 80%;
-    margin-right:auto;
-    margin-left: auto;*/
+   
 
 }
 
@@ -165,9 +163,8 @@ table
 {
     float:right;
     width: 50px;
-    border-spacing: 0px;
-    margin-right:70px;
-    margin-top: 3px;
+    background-color: lightgray;
+    margin: 5px;
     color: black;
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -177,10 +174,9 @@ td, th
 {
     padding-left: 10px;
     padding-right: 30px;
-    border:black;
-    border-style: solid;
-    border-width: 2px;
     padding-top: 15px;
+    border-bottom: black 2px;
+    border-style: solid;
 }
 
 .headings
@@ -296,7 +292,7 @@ figure
 }
 
 /*---------------------Mobile Query----------------------*/
-@media only screen and (min-width:300px) and (max-width: 600px)
+@media screen and (min-width:300px) and (max-width: 825px)
 {
     #wrapper
     {
@@ -309,7 +305,17 @@ figure
         'main'
         'aside'
         'foot';
+
+        max-width: 90%;
+        margin-right:auto;
+        margin-left: auto;
     }
+
+    body
+    {
+        background-color: darkgray;
+    }
+
 
     header
     {
@@ -319,50 +325,8 @@ figure
 
     table
     {
-        padding-right: 90px;
+        align-content:center;
         padding-bottom: 5px;
-    }
-
-    .background{
-        grid-area: back;
-        background-image: url(home.jpg);
-        background-size: 100% 100%;
-        height: 200px;
-        border-right: black;
-        border-style: solid;
-        border-width: 10px;
-    }
-
-    .chapter1_background{
-        grid-area: back;
-        background-image: url(fort.jpg);
-        background-size: 100% 100%;
-        height: 300px;
-        border-right: black;
-        border-style: solid;
-        border-width: 10px;
-    }
-    
-    .ch2background
-    {
-        grid-area: back;
-        background-image: url(ch2.png);
-        background-size: 100% 100%;
-        height: 300px;
-        border-right: black;
-        border-style: solid;
-        border-width: 10px;
-    }
-    
-    .back
-    {
-        grid-area: back;
-        background-image: url(ch3.jpg);
-        background-size: 100% 100%;
-        height: 300px;
-        border-right: black;
-        border-style: solid;
-        border-width: 10px;
     }
 
     aside
@@ -378,6 +342,23 @@ figure
         background-color: black;
         margin: 10px;
         padding: 20px;
+    }
+    #sidebar .toggle-btn{
+        left: 270px;
+    }
+    #sidebar
+    {
+        width: 220px;
+        left: -220px;
+        height: 80%;
+    }
+
+    .back{
+        height: 300px;
+    }
+
+    .background{
+        height: 300px;
     }
 }
 
