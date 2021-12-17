@@ -146,10 +146,12 @@ footer
     border-style: solid;
     text-align: center;
     border-radius: 10px;
+    list-style-type: none;
 }
 
 .Info a:link {color: black;}
 .Info a:hover {color: lightskyblue;}
+
 
 .left
 {
