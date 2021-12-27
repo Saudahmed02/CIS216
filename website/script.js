@@ -3,5 +3,5 @@ function createAccount(){
 }
 
 function signIn(){
-    document.location.href = "https://"
+    document.location.href = "https://saudahmed02.github.io/CIS216/website/index.html";
 }
