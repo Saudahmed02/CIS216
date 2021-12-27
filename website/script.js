@@ -1,4 +1,4 @@
 function createAccount ()
 {
-    windows.location = 'create.html';
+    windows.location = "https://saudahmed02.github.io/CIS216/website/create.html";
 }
