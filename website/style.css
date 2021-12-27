@@ -1,0 +1,99 @@
+
+/*Login Page*/
+.login
+{
+    grid-area: login;
+    text-align: center;
+}
+
+form
+{
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+    background-color: #fff;
+}
+
+#wrapper
+{
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-areas:
+    ". login ."
+    ". . ."
+    ". . .";
+}
+.login_button
+{
+    text-align:center;
+}
+.login_button button{
+    background-color: rgb(34, 134, 235);
+    width: 70%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+.login_button button:hover {background-color:skyblue;}
+
+.create_account
+{
+    text-align: center;
+}
+.create_account button
+{
+    background-color: lightslategrey;
+    color: white;
+    width: 70%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create_account button:hover {background-color:darkgrey;}
+
+input[type = password]
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type = text]
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px; 
+}
+
+input[type = text], label{font-family:sans-serif;}
+
+h2 {font-family:sans-serif; text-align: center;}
+
+/*Background Image*/
+body
+{
+    background-color: lightgray;
+    background-size: 100% 100%;
+}
+
+
