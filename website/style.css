@@ -30,7 +30,7 @@ form
 {
     text-align:center;
 }
-.login_button button{
+input[type = submit] {
     background-color: rgb(34, 134, 235);
     width: 70%;
     color: white;
@@ -41,7 +41,7 @@ form
     cursor: pointer;  
 }
 
-.login_button button:hover {background-color:skyblue;}
+input[type = submit]:hover {background-color:skyblue;}
 
 .create_account
 {
