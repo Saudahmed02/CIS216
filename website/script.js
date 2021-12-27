@@ -1,4 +1,4 @@
 function createAccount ()
 {
-    windows.location.href = 'create.html';
+    windows.location = 'create.html';
 }
