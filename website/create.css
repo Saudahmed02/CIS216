@@ -1,7 +1,7 @@
 /*---------text-----------*/
 input[type = text]
 {
-    width: 70%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -14,7 +14,7 @@ input[type = text]
 /*------password----------*/
 input[type = password]
 {
-    width: 70%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -55,8 +55,8 @@ input[type = submit]:hover {background-color:skyblue;}
 #wrapper
 {
     display: grid;
-    grid-template-rows: 40% 40% 20%;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 15% 40% 45%;
     grid-template-areas:
     ". login ."
     ". login ."
@@ -68,9 +68,9 @@ input[type = submit]:hover {background-color:skyblue;}
     border:black;
     border-style:solid;
     border-radius: 10px;
-    width: 100%;
     text-align:center;
     background-color:white;
+    width: 1000px;
 }
 h2 {text-align:center; font-family:sans-serif;}
 
@@ -83,7 +83,7 @@ h2 {text-align:center; font-family:sans-serif;}
 {
     background-color: lightslategrey;
     color: white;
-    width: 70%;
+    max-width: 70%;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -116,4 +116,8 @@ body{
 }
 
 .login_button button:hover{background-color:skyblue;}
+
+label{
+padding-right: 25px;
+}
 
