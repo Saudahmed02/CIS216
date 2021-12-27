@@ -7,5 +7,5 @@ function signIn(){
 }
 
 function home(){
-    document.location.href = "https://saudahmed02.github.io/CIS/website/home.html";
+    document.location.href = "https://saudahmed02.github.io/CIS216/website/home.html";
 }
