@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>login Page</title>
+    <meta charset= "utf-8">
+    <meta name = "viewport" content ="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class = "container">
+    <form class = "form" id = "createAccount">
+        <h1 class = "form_title">Create Account</h1> <!--Heading of the page-->
+        <div class = "form_message form_message_error"></div><!--If the user inputs anything wrong-->
+        <div class = "form_input_group">
+                <input type = "text" class = "form_input" autofocus placeholder = "Username"> <!--Form inputs-->
+                <div class = "form_input_error_message"></div>
+        </div>
+        <div class = "form_input_group">
+            <input type = "text" class = "form_input"  placeholder = "Email Address"> <!--Form inputs-->
+            <div class = "form_input_error_message"></div>
+        </div>
+        <div class = "form_input_group">
+            <input type = "password" class = "form_input" placeholder = "Password"><!--Form passwords-->
+            <div class = "form_input_error_message"></div>
+
+        <div class = "form_input_group">
+            <input type = "password" class = "form_input" placeholder = "Confirm Password"><!--Form passwords-->
+            <div class = "form_input_error_message"></div>
+        </div>
+
+        <button type = "submit" class = "form_button">Create Account</button> <!--Login button if the user inputs-->
+        
+        <p class = "form_text">
+            <a id class = "linkLogin" href ="https://saudahmed02.github.io/CIS216/webpage/index.html" class = "form_link">Already Have an Account? Sign In</a><!--if the user forgots the passwords-->
+        </p>
+
+    </form> 
+</div>
+
+
+<script src = "script.js"></script>
+</body>
