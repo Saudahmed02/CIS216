@@ -1,35 +1,36 @@
-function setFormMessage(formElement, type, message)
-{
-    const messageElement = formElement.querySelector(".form_message");
+var registeredAccounts = [
+    {
+        username: "John",
+        password: "12pass" 
+    },
 
-    messageElement.textContent = message;
-    messageElement.classList.remove("form_message_success", "form_message_error");
-    messageElement.classList.add('form_message--${type}');
+    {
+        username: "saud",
+        password: "games"
+    },
+
+    {
+        username: "sam",
+        password: "coding"
+    }
+];
+
+
+//Event Handler
+function getInfo(){
+
+    var username = document.getElementById('user').value;
+    var password = document.getElementById('pass').value;
+
+    for (i  = 0; i < registeredAccounts.length; i++)
+    {
+        if(username == registeredAccounts[i].username && password == registeredAccounts[i].password)
+        {
+            console.log(username + "is successfully logged in!");
+        }
+        else
+        {
+            console.log("No Username found!");
+        }
+    }
 }
-
-//setFormMessage(loginForm, "success", "You are succefully Logged in!");
-
-document.addEventListener("DOMContentLoaded", () => { //when the document is ready pass this function
-    const loginForm = document.querySelector('#login'); //Creating a variable and equaling it with the login page
-    const createAccount = document.querySelector('#createAccount');//Create a varible "const" and linking it with create account page
-
-    document.querySelector("#linkCreateAccount").addEventListener("click", e =>
-    {
-        e.preventDefault();
-       loginForm.classList.add("form--hidden");
-       createAccountForm.classList.remove("form--hidden");
-    });
-
-    document.querySelector("#linkLogin").addEventListener("click", e =>
-    {
-        e.preventDefault()//We dont get redirect
-       loginForm.classList.add("form--hidden");
-       createAccountForm.classList.remove("form--hidden");
-    });
-
-    loginForm.addEventListener("submit", e => {
-        setFormMessage(loginForm, "error", "Invalid username/password combination");
-    });
-
-});
-
