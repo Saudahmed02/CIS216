@@ -1,36 +1,9 @@
-var registeredAccounts = [
-    {
-        username: "John",
-        password: "12pass" 
-    },
-
-    {
-        username: "saud",
-        password: "games"
-    },
-
-    {
-        username: "sam",
-        password: "coding"
-    }
-];
-
 
 //Event Handler
 function getInfo(){
 
-    var username = document.getElementById('user').value;
-    var password = document.getElementById('pass').value;
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
 
-    for (i  = 0; i < registeredAccounts.length; i++)
-    {
-        if(username == registeredAccounts[i].username && password == registeredAccounts[i].password)
-        {
-            console.log(username + "is successfully logged in!");
-        }
-        else
-        {
-            console.log("No Username found!");
-        }
-    }
+    console.log("Your username" + username + " and password" + password);
 }
